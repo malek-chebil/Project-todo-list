@@ -5,7 +5,7 @@ body {
 }
 
 h1{
-   background-color: #9932CC;
+   background-color: #e9967a;
     color: white;
     margin: 0px;
     padding: 17px 20px;
@@ -35,18 +35,21 @@ input:focus{
 }
 
 ul{
-    background-color: #E9967A;
+    background-color: Gray;
     position: relative;
     margin-left: 35px;
     padding: 1px;
+    float: left;
+
 }
 
 li{
-    background: #fff;
+    background: white;
     height: 40px;
     line-height: 40px;
-    color: #9932cc;
+    color: #08000c;
     list-style: upper-roman;
+
 }
 
 
@@ -69,3 +72,12 @@ em{
     padding-top: 0px;
     padding-bottom: 0px;
 }
+.list{
+    background : Gray;
+
+
+}
+.to-do>li{
+list-style: upper-roman inside;
+}
+
