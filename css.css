@@ -1,0 +1,71 @@
+body {
+    background-image: url("https://www.burchcom.com/wp-content/uploads/2019/01/images1997-5c2f99436aa28-1024x683.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+   background-color: #9932CC;
+    color: white;
+    margin: 0px;
+    padding: 17px 20px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400
+}
+
+input{
+    width:100%;
+    color:#996522;
+    background:#f7f7f7;
+    padding:13px 13px 13px 20px;
+    font-size:20px;
+    box-sizing:border-box;
+}
+
+.completed{
+    text-decoration:line-through;
+    color:green;
+}
+
+input:focus{
+    background-color:#fff;
+    border:3px solid #fff;
+    outline:none;
+}
+
+ul{
+    background-color: #E9967A;
+    position: relative;
+    margin-left: 35px;
+    padding: 1px;
+}
+
+li{
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #9932cc;
+    list-style: upper-roman;
+}
+
+
+
+#container{
+    width:260px;
+    margin:100px auto;
+    background:#f7f7f7;
+}
+em{
+    
+    
+    background-color: white;
+    color: #E9967A;
+    cursor: pointer;
+    padding: 10px;
+}
+.remove{
+    float: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
